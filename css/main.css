@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1600px;
+}
+header{
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    background: #335C7D;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+header.sticky {
+    padding: 12px;
+    font-size: 24px;
+    background: #228e97;
+    text-align: left;
+}
+#contenr {
+    margin: auto;
+    padding: 84px 24px 0;
+}
